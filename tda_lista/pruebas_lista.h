@@ -1,0 +1,21 @@
+#ifndef __PRUEBAS_LISTA_H__
+#define __PRUEBAS_LISTA_H__
+void ConListaVacia_InsertarUnElementoYBorrarlo_AumentaLaCantidadEnUnoSeVuelveElUltimoElementoYAlBorrarseLaListaQuedaVacia();
+void ConListaVacia_PreguntarCantidad_DevuelveCero();
+void ConListaVacia_PreguntarSiVacia_DevuelveTrue();
+void ConListaVacia_InsertarYBorrarNUMINSERTARelementos_ResultaEnCantidadNUMINSERTARYCantidadCero();
+void ConListaOcupada_InsertarElementoEnPosicionYpreguntarElementoEnPosicion_DevuelveEseElemento();
+void ConListaOcupada_IteradorInternoYExterno_MuestranLoMismo();
+void ConListaNull_IntentarInsertar_DevuelveError();
+void ConListaNull_IntentarBorrar_DevuelveError();
+void ConListaNull_IntentarInsertarEnPosicion_DevuelveError();
+void ConListaNull_IntentarBorrarDePosicion_DevuelveError();
+void ConListaNull_PreguntarSiVacia_DevuelveTrue();
+void ConListaNULL_UltimoElemento_DevuelveNULL();
+void ConListaNULL_PreguntarCantidad_DevuelveCero();
+void ConListaVacia_IntentarBorrar_DevuelveError();
+void ConListaVacia_IntentarBorrarDePosicion_DevuelveError();
+void ConListaVacia_UltimoElemento_DevuelveNULL();
+#endif /*__PRUEBAS_LISTA_H__*/
+
+
